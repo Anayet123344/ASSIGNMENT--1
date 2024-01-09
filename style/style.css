@@ -75,14 +75,15 @@
     line-height: 30px; /* 166.667% */
     margin-top: -40px;
 }
-.welcome-btn{
+.welcom-btn{
     color: #FFF;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    background: none;
+    border: none;
+    background-color: #F00;
 }
 .welcome-party{
     background-image: url(../img/Vectorrr.png);
@@ -133,19 +134,140 @@
     background-color: #F00;
     border-radius: 10px;
     color: #FFF;
-    border-color: #F00;
+    border: none;
     
 
 }
 .about-brg{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    width: 1280px;
+    width: 1320px;
     height: 482px;
     flex-shrink: 0;
     background-position: center;
     margin: auto;
     border-radius: 16px;
 
+}
+.comming{
+    display: flex;
+    background: #FFF;
+    width: 1320px;
+    height: 600px;
+    background-position: center;
+    margin: 60px auto;
+    justify-content: space-around;
+    height: 465px;
+    padding-top: 150px;
+
+}
+.comming-new-pic{
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+.comming-color{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.comming-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.comming-pra{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.comming-img{
+    
+}
+.comming-img-circle{
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+.year-color{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.comming-new-pra{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.sale-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.sale-off{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    position: center;
+    margin-top: -20px;
+}
+.sale-off-pra{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    margin-top: -40px;
+}
+.holi-span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.sale{
+    width: 1320px;
+    height: 975px;
+    background-position: center;
+    margin: 60px auto;
+    background-image: url(../img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.anayet{
+    position: relative;
+    top: 10px;
+    right: 200px;
+}
+.sale-off-pic{
+    position: relative;
+    top:-300px;
+    right: 290px;
+}
+.end-red{
+    position: relative;
+    top: -600px;
+    left: 445px;
+
+
+}
+.sale-cont{
+    text-align: center;
 }
 .best-gift{
     color: #F00;
@@ -230,25 +352,33 @@
     font-weight: 400;
     margin-top: 23px;
     background-color: none;
+    border: none;
 }
-.Subscribe-btn{
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
+.subscribe-btn{
+    background-color: red;
+    border: none;
+    color: aliceblue;
     font-size: 20px;
     font-weight: 700;
-    text-transform: capitalize;
-    background-color: #F00;
+    line-height: 16px; 
+    padding-right: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; 
+    font-family: 'Roboto', sans-serif;
+    margin-left: 250px;
+    padding-bottom: 6px;
+  
 }
 .footer-tital{
     display: flex;
     justify-content: space-around;
     color: #FFF;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 70px;
 }
 .contract{
     display: flex;
+    margin-bottom: 50px;
 }
 .call{
     display: flex;
@@ -259,11 +389,14 @@
 .footer-img{
     text-align: center;
     color: #FFF;
+    padding: 70px;
 }
 .footer-end{
     display: flex;
     justify-content: space-around;
     color: #FFF;
+    padding: 50px;
+    margin-bottom: 90px;
 }
 .footer{
     background: #070211;
