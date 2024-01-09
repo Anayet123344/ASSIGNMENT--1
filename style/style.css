@@ -82,7 +82,7 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: rebeccapurple;
+    background: none;
 }
 .welcome-party{
     background-image: url(../img/Vectorrr.png);
@@ -102,4 +102,175 @@
     padding: 80px;
     margin-top: -100px;
     margin-left: 5%;
+}
+.about{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 150px;
+}
+.about-cont{
+    padding: 80px;
+    padding-top: 180px;
+    margin-bottom: 10px;
+
+}
+.gap{
+    margin-top: -50px;
+}
+.about-color{
+    color: #F00;
+}
+.about-btn{
+    display: inline-flex;
+    padding: 1px 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F00;
+    border-radius: 10px;
+    color: #FFF;
+    border-color: #F00;
+    
+
+}
+.about-brg{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1280px;
+    height: 482px;
+    flex-shrink: 0;
+    background-position: center;
+    margin: auto;
+    border-radius: 16px;
+
+}
+.best-gift{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 120px;
+}
+.pot-cont{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: -10px;
+}
+.pot-pra{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-top: -20px;
+    margin-bottom: 70px;
+}
+.pot-head{
+    padding: 5px;
+}
+.pot-img{
+    display: flex;
+    margin: -40px;
+}
+.pot{
+    width: 1300px;
+    align-items: center;
+    margin: auto;
+    
+}
+.subscribe{
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-position: center;
+    margin: 60px auto;
+}
+.sub-img{
+    text-align: center;
+}
+.sub-tital{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.sub-pra{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.sub-btn{
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    align-items: center;
+    margin: 60px auto;
+    border-radius: 50px;
+    background: #FFF;
+
+}
+.place{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 23px;
+    background-color: none;
+}
+.Subscribe-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: #F00;
+}
+.footer-tital{
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    text-align: center;
+    padding-top: 25px;
+}
+.contract{
+    display: flex;
+}
+.call{
+    display: flex;
+}
+.call-img{
+    padding: 3px;
+}
+.footer-img{
+    text-align: center;
+    color: #FFF;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+}
+.footer{
+    background: #070211;
+    height: 609px;
+    flex-shrink: 0;
+
+}
+.web-site{
+    text-align: center;
 }
